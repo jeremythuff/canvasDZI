@@ -213,7 +213,7 @@ $(document).ready(function() {
     canvas.height = window.innerHeight;
     
     numCols = 5;
-    z = 0;
+    z = 1;
     x = (canvas.width/2)-(canvas.height/2);
     y = 0;
     
@@ -225,16 +225,16 @@ $(document).ready(function() {
         var delta = event.originalEvent.wheelDelta;
         var oldZ = z;
 
-        if(delta > 0) {
-            z += .5;
-            if(z>3.5)
-                z=oldZ;
-        } else {
-            z -= .5;
-            //(canvas.height/(numCols-oldZ)*(numCols*3)===canvas.height)|| 
-            if((y+(canvas.height/(numCols-z)*(numCols*2))<=canvas.height)||(y-(canvas.height/(numCols-z)*(numCols))>=0)||(x+(canvas.height/(numCols-z)*(numCols*2))<=canvas.width)||(x-(canvas.height/(numCols-z)*(numCols))>=0))
-                z=oldZ;
-        }
+        //if(delta > 0) {
+            if(delta<0)
+                z += delta*-delta*.000005;
+            else
+                z += delta*delta*.000005;
+
+        
+             if(z<.1)
+                 z=.1
+        
 
         drawStuff(x, y, z);
     });
@@ -251,7 +251,7 @@ $(document).ready(function() {
             if(lastX > newX) {
                 x -= Math.abs(lastX - newX);
 
-                if(x+(canvas.height/(numCols-z)*(numCols*2))<=canvas.width) {
+                if((x<=0)&&(x+(((canvas.height/(numCols))*z)*numCols)<=canvas.width)) {
                     x += Math.abs(lastX - newX);
                 }
 
@@ -259,7 +259,7 @@ $(document).ready(function() {
             } else {
                 x += Math.abs(lastX - newX);
 
-                if(x-(canvas.height/(numCols-z)*(numCols))>=0) {
+                if((x+(((canvas.height/(numCols))*z)*(numCols))>=canvas.width)&&(x>=0)) {
                     x -= Math.abs(lastX - newX);
                 }
             }
@@ -267,14 +267,14 @@ $(document).ready(function() {
             if(newY > lastY) {
                 y += Math.abs(lastY - newY);
 
-                if(y-(canvas.height/(numCols-z)*(numCols))>=0) {
+                if((y+(((canvas.height/(numCols))*z)*(numCols))>=canvas.height)&&(y>=0)) {
                     y -= Math.abs(lastY - newY);
                 }
 
             } else {
                 y -= Math.abs(lastY - newY);
 
-                if(y+(canvas.height/(numCols-z)*(numCols*2))<=canvas.height) {
+                if((y<=0)&&((y+(((canvas.height/(numCols))*z)*(numCols)))<=(canvas.height))) {
                     y += Math.abs(lastY - newY);
                 } 
             }
@@ -292,8 +292,12 @@ $(document).ready(function() {
 
     //main draw function
     function drawStuff(x, y, z) {
+
     	canvas.width = canvas.width;
-    	var	w = canvas.height/(numCols-z);
+    	if(z===0) {
+            z=.1
+        }
+        var	w = (canvas.height/(numCols))*z;
     	var	h = w;
     	
     	var cells = Object.keys(grid);
@@ -319,36 +323,13 @@ $(document).ready(function() {
             ctx.fillStyle = "rgba("+r+", "+g+", "+b+", 1)";
             ctx.fillRect (x, y, w, h);
 
-            ctx.fillStyle = "rgba("+r+", "+g+", "+b+", .75)";
-            ctx.fillRect (x+(w*numCols), y, w, h);
-            ctx.fillRect (x-(w*numCols), y, w, h);
-            ctx.fillRect (x, y+(w*numCols), w, h);
-            ctx.fillRect (x, y-(w*numCols), w, h);
-            ctx.fillRect (x+(w*numCols), y+(w*numCols), w, h);
-            ctx.fillRect (x-(w*numCols), y-(w*numCols), w, h);
-            ctx.fillRect (x+(w*numCols), y-(w*numCols), w, h);
-            ctx.fillRect (x-(w*numCols), y+(w*numCols), w, h);
-
-            ctx.fillStyle="#fff";
-            ctx.font="15px Arial"; 
-            ctx.fillText(text, x+(w/5), y+(h/5));
-
-            ctx.fillText(text, (x+(w*numCols))+(w/5), y+(h/5));
-            ctx.fillText(text, (x-(w*numCols))+(w/5), y+(h/5));
-            ctx.fillText(text, x+(w/5), (y+(w*numCols))+(h/5));
-            ctx.fillText(text, x+(w/5), (y-(w*numCols))+(h/5));
-            ctx.fillText(text, (x+(w*numCols))+(w/5), (y+(w*numCols))+(h/5));
-            ctx.fillText(text, (x-(w*numCols))+(w/5), (y-(w*numCols))+(h/5));
-            ctx.fillText(text, (x+(w*numCols))+(w/5), (y-(w*numCols))+(h/5));
-            ctx.fillText(text, (x-(w*numCols))+(w/5), (y+(w*numCols))+(h/5));
-
             x += w;	
 			r += 3;
 			g += 4;
 			b += 5;
     	
     	});
-        console.log(offScreen); 	
+        console.log("z = " + z); 	
     }
 
     function reDrawCanvas() {
