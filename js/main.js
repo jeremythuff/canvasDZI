@@ -8,6 +8,11 @@ $(document).ready(function() {
             r: 0,
             g: 0,
             b: 0
+        },
+        img: {
+            sml: "img/goatTiny.jpg",
+            med: "img/goat.jpg",
+            lrg: "img/goatLarge.jpg"
         }
     },
     a2: {
@@ -16,6 +21,11 @@ $(document).ready(function() {
             r: 0,
             g: 0,
             b: 0
+        },
+        img: {
+            sml: "img/goatTiny.jpg",
+            med: "img/goat.jpg",
+            lrg: "img/goatLarge.jpg"
         }
     },
     a3: {
@@ -24,6 +34,11 @@ $(document).ready(function() {
             r: 0,
             g: 0,
             b: 0
+        },
+        img: {
+            sml: "img/goatTiny.jpg",
+            med: "img/goat.jpg",
+            lrg: "img/goatLarge.jpg"
         }
     },
     a4: {
@@ -32,6 +47,11 @@ $(document).ready(function() {
             r: 0,
             g: 0,
             b: 0
+        },
+        img: {
+            sml: "img/goatTiny.jpg",
+            med: "img/goat.jpg",
+            lrg: "img/goatLarge.jpg"
         }
     },
     a5: {
@@ -40,6 +60,11 @@ $(document).ready(function() {
             r: 0,
             g: 0,
             b: 0
+        },
+        img: {
+            sml: "img/goatTiny.jpg",
+            med: "img/goat.jpg",
+            lrg: "img/goatLarge.jpg"
         }
     },
     b1: {
@@ -48,6 +73,11 @@ $(document).ready(function() {
             r: 0,
             g: 0,
             b: 0
+        },
+        img: {
+            sml: "img/goatTiny.jpg",
+            med: "img/goat.jpg",
+            lrg: "img/goatLarge.jpg"
         }
     },
     b2: {
@@ -56,6 +86,11 @@ $(document).ready(function() {
             r: 249,
             g: 0,
             b: 0
+        },
+        img: {
+            sml: "img/goatTiny.jpg",
+            med: "img/goat.jpg",
+            lrg: "img/goatLarge.jpg"
         }
     },
     b3: {
@@ -64,6 +99,11 @@ $(document).ready(function() {
             r: 249,
             g: 0,
             b: 0
+        },
+        img: {
+            sml: "img/goatTiny.jpg",
+            med: "img/goat.jpg",
+            lrg: "img/goatLarge.jpg"
         }
     },
     b4: {
@@ -72,6 +112,11 @@ $(document).ready(function() {
             r: 249,
             g: 0,
             b: 0
+        },
+        img: {
+            sml: "img/goatTiny.jpg",
+            med: "img/goat.jpg",
+            lrg: "img/goatLarge.jpg"
         }
     },
     b5: {
@@ -80,6 +125,11 @@ $(document).ready(function() {
             r: 0,
             g: 0,
             b: 0
+        },
+        img: {
+            sml: "img/goatTiny.jpg",
+            med: "img/goat.jpg",
+            lrg: "img/goatLarge.jpg"
         }
     },
     c1: {
@@ -88,6 +138,11 @@ $(document).ready(function() {
             r: 0,
             g: 0,
             b: 0
+        },
+        img: {
+            sml: "img/goatTiny.jpg",
+            med: "img/goat.jpg",
+            lrg: "img/goatLarge.jpg"
         }
     },
     c2: {
@@ -96,6 +151,11 @@ $(document).ready(function() {
             r: 0,
             g: 0,
             b: 0
+        },
+        img: {
+            sml: "img/goatTiny.jpg",
+            med: "img/goat.jpg",
+            lrg: "img/goatLarge.jpg"
         }
     },
     c3: {
@@ -104,6 +164,11 @@ $(document).ready(function() {
             r: 249,
             g: 0,
             b: 0
+        },
+        img: {
+            sml: "img/goatTiny.jpg",
+            med: "img/goat.jpg",
+            lrg: "img/goatLarge.jpg"
         }
     },
     c4: {
@@ -112,6 +177,11 @@ $(document).ready(function() {
             r: 0,
             g: 0,
             b: 0
+        },
+        img: {
+            sml: "img/goatTiny.jpg",
+            med: "img/goat.jpg",
+            lrg: "img/goatLarge.jpg"
         }
     },
     c5: {
@@ -120,6 +190,11 @@ $(document).ready(function() {
             r: 0,
             g: 0,
             b: 0
+        },
+        img: {
+            sml: "img/goatTiny.jpg",
+            med: "img/goat.jpg",
+            lrg: "img/goatLarge.jpg"
         }
     },
     d1: {
@@ -128,6 +203,11 @@ $(document).ready(function() {
             r: 0,
             g: 0,
             b: 0
+        },
+        img: {
+            sml: "img/goatTiny.jpg",
+            med: "img/goat.jpg",
+            lrg: "img/goatLarge.jpg"
         }
     },
     d2: {
@@ -136,6 +216,11 @@ $(document).ready(function() {
             r: 0,
             g: 0,
             b: 0
+        },
+        img: {
+            sml: "img/goatTiny.jpg",
+            med: "img/goat.jpg",
+            lrg: "img/goatLarge.jpg"
         }
     },
     d3: {
@@ -144,6 +229,11 @@ $(document).ready(function() {
             r: 249,
             g: 0,
             b: 0
+        },
+        img: {
+            sml: "img/goatTiny.jpg",
+            med: "img/goat.jpg",
+            lrg: "img/goatLarge.jpg"
         }
     },
     d4: {
@@ -152,6 +242,11 @@ $(document).ready(function() {
             r: 0,
             g: 0,
             b: 0
+        },
+        img: {
+            sml: "img/goatTiny.jpg",
+            med: "img/goat.jpg",
+            lrg: "img/goatLarge.jpg"
         }
     },
     d5: {
@@ -160,6 +255,11 @@ $(document).ready(function() {
             r: 0,
             g: 0,
             b: 0
+        },
+        img: {
+            sml: "img/goatTiny.jpg",
+            med: "img/goat.jpg",
+            lrg: "img/goatLarge.jpg"
         }
     },
     e1: {
@@ -168,6 +268,11 @@ $(document).ready(function() {
             r: 0,
             g: 0,
             b: 0
+        },
+        img: {
+            sml: "img/goatTiny.jpg",
+            med: "img/goat.jpg",
+            lrg: "img/goatLarge.jpg"
         }
     },
     e2: {
@@ -176,6 +281,11 @@ $(document).ready(function() {
             r: 249,
             g: 0,
             b: 0
+        },
+        img: {
+            sml: "img/goatTiny.jpg",
+            med: "img/goat.jpg",
+            lrg: "img/goatLarge.jpg"
         }
     },
     e3: {
@@ -184,6 +294,11 @@ $(document).ready(function() {
             r: 249,
             g: 0,
             b: 0
+        },
+        img: {
+            sml: "img/goatTiny.jpg",
+            med: "img/goat.jpg",
+            lrg: "img/goatLarge.jpg"
         }
     },
     e4: {
@@ -192,6 +307,11 @@ $(document).ready(function() {
             r: 0,
             g: 0,
             b: 0
+        },
+        img: {
+            sml: "img/goatTiny.jpg",
+            med: "img/goat.jpg",
+            lrg: "img/goatLarge.jpg"
         }
     },
     e5: {
@@ -200,6 +320,11 @@ $(document).ready(function() {
             r: 0,
             g: 0,
             b: 0
+        },
+        img: {
+            sml: "img/goatTiny.jpg",
+            med: "img/goat.jpg",
+            lrg: "img/goatLarge.jpg"
         }
     }
 }
@@ -312,16 +437,35 @@ $(document).ready(function() {
     		}
 
 			counter++;
-			
+			console.log(z);
 			var cell = grid[this];
             var r = cell.color.r;
             var g = cell.color.g;
             var b = cell.color.b;
+            var img =  new Image();
+            if(z < 1) {
+                img.src = cell.img.sml;
+            }
+            
+            if((z>=1)&&(z<5)) {
+                img.src = cell.img.med;
+            }
+
+            if(z >= 5) {
+                img.src = cell.img.lrg;
+            }
+
             var text = cell.data;
 
-		
-            ctx.fillStyle = "rgba("+r+", "+g+", "+b+", 1)";
-            ctx.fillRect (x, y, w, h);
+            //(x<canvas.width)&&(x+((canvas.height/(numCols))*z)>0)
+            if((x<canvas.width)&&(x+((canvas.height/(numCols))*z)>0)&&(y<canvas.height)&&(y+((canvas.height/(numCols))*z)>0)) {
+                ctx.fillStyle = "rgba("+r+", "+g+", "+b+", 1)";
+                ctx.fillRect (x, y, w, h);
+                ctx.drawImage(img, x, y, w, h);
+            } else {
+                offScreen.push(text)
+            } 		
+                
 
             x += w;	
 			r += 3;
@@ -329,7 +473,7 @@ $(document).ready(function() {
 			b += 5;
     	
     	});
-        console.log("z = " + z); 	
+        console.log(offScreen); 	
     }
 
     function reDrawCanvas() {
