@@ -83,7 +83,7 @@ $(document).ready(function() {
     b2: {
         data: "b2",
         color:  {
-            r: 249,
+            r: 0,
             g: 0,
             b: 0
         },
@@ -96,7 +96,7 @@ $(document).ready(function() {
     b3: {
         data: "b3",
         color:  {
-            r: 249,
+            r: 0,
             g: 0,
             b: 0
         },
@@ -109,7 +109,7 @@ $(document).ready(function() {
     b4: {
         data: "b4",
         color:  {
-            r: 249,
+            r: 0,
             g: 0,
             b: 0
         },
@@ -161,7 +161,7 @@ $(document).ready(function() {
     c3: {
         data: "c3",
         color:  {
-            r: 249,
+            r: 0,
             g: 0,
             b: 0
         },
@@ -226,7 +226,7 @@ $(document).ready(function() {
     d3: {
         data: "d3",
         color:  {
-            r: 249,
+            r: 0,
             g: 0,
             b: 0
         },
@@ -278,7 +278,7 @@ $(document).ready(function() {
     e2: {
         data: "e2",
         color:  {
-            r: 249,
+            r: 0,
             g: 0,
             b: 0
         },
@@ -291,7 +291,7 @@ $(document).ready(function() {
     e3: {
         data: "e3",
         color:  {
-            r: 249,
+            r: 0,
             g: 0,
             b: 0
         },
@@ -334,40 +334,53 @@ $(document).ready(function() {
     canvas = document.getElementById('canvas');
     ctx = canvas.getContext('2d');
     
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+    canvas.width = $(window).width()/2;
+    canvas.height = $(window).height()/2;
     
     numCols = 5;
-    z = 1;
-    x = (canvas.width/2)-(canvas.height/2);
-    y = 0;
+    var z = 1;
+    var x = (canvas.width/2)-(canvas.height/2);
+    var y = 0;
     
 
     //event listeners
     $(window).on('resize', reDrawCanvas);
 
     $("canvas").on('mousewheel', function(event) {
+        var oldXOff = event.originalEvent.offsetX-x;
+        var oldYOff = event.originalEvent.offsetY-y;
         var delta = event.originalEvent.wheelDelta;
-        var oldZ = z;
 
-        //if(delta > 0) {
-            if(delta<0)
-                z += delta*-delta*.000005;
-            else
-                z += delta*delta*.000005;
+        if(delta<0) {
+            z += delta*-delta*.000005;
+             if(z<.5) {
+                 z=.5
+             }
 
-        
-             if(z<.1)
-                 z=.1
-        
+            var newXOff = oldXOff;
+            var newYOff = oldYOff;
 
+            x += Math.abs(oldXOff-newXOff);
+            y += Math.abs(oldYOff-newYOff); 
+        }
+        else {
+            z += delta*delta*.000005;
+             if(z<.5) {
+                 z=.5
+             }
+            var newXOff = oldXOff;
+            var newYOff = oldYOff;
+            x -= Math.abs(oldXOff-newXOff);
+            y -= Math.abs(oldXOff-newXOff); 
+        }
+            
         drawStuff(x, y, z);
     });
 
     $("canvas").on('mousedown', function(event) {
 
-        var lastX = event.clientX;
-        var lastY = event.clientY; 
+        lastX = event.clientX;
+        lastY = event.clientY; 
 
         $(window).on('mousemove', function(e) {
             var newX = e.clientX;
@@ -379,7 +392,6 @@ $(document).ready(function() {
                 if((x<=0)&&(x+(((canvas.height/(numCols))*z)*numCols)<=canvas.width)) {
                     x += Math.abs(lastX - newX);
                 }
-
 
             } else {
                 x += Math.abs(lastX - newX);
@@ -408,7 +420,7 @@ $(document).ready(function() {
             drawStuff(x, y, z);
             
         });
-    })
+    });
 
     $(window).on('mouseup', function() {
         $(window).off('mousemove');
@@ -417,18 +429,15 @@ $(document).ready(function() {
 
     //main draw function
     function drawStuff(x, y, z) {
-
     	canvas.width = canvas.width;
-    	if(z===0) {
-            z=.1
-        }
         var	w = (canvas.height/(numCols))*z;
     	var	h = w;
     	
     	var cells = Object.keys(grid);
     	var counter = 0;
     	var offScreen = [];
-    	$(cells).each(function() {
+         
+        $(cells).each(function() {
     		
     		if((counter % numCols === 0)&&(counter != 0)) {
     			counter = 0;
@@ -437,35 +446,38 @@ $(document).ready(function() {
     		}
 
 			counter++;
-			console.log(z);
 			var cell = grid[this];
             var r = cell.color.r;
             var g = cell.color.g;
             var b = cell.color.b;
             var img =  new Image();
-            if(z < 1) {
+            
+            if(z < .5) {
                 img.src = cell.img.sml;
             }
             
-            if((z>=1)&&(z<5)) {
+            if((z>=.5)&&(z<10)) {
                 img.src = cell.img.med;
             }
 
-            if(z >= 5) {
+            if(z >= 10) {
                 img.src = cell.img.lrg;
             }
 
             var text = cell.data;
 
-            //(x<canvas.width)&&(x+((canvas.height/(numCols))*z)>0)
-            if((x<canvas.width)&&(x+((canvas.height/(numCols))*z)>0)&&(y<canvas.height)&&(y+((canvas.height/(numCols))*z)>0)) {
+            
+            if(isOnScreen(x,y)) {
+                
                 ctx.fillStyle = "rgba("+r+", "+g+", "+b+", 1)";
                 ctx.fillRect (x, y, w, h);
-                ctx.drawImage(img, x, y, w, h);
+                ctx.drawImage(img, x+((w/2)-((w/2)/2)), y+((w/2)-((w/2)/2)), w/2, h/2);
+              
             } else {
                 offScreen.push(text)
             } 		
                 
+            
 
             x += w;	
 			r += 3;
@@ -473,20 +485,58 @@ $(document).ready(function() {
 			b += 5;
     	
     	});
-        console.log(offScreen); 	
+        //console.log(offScreen); 	
+    
+    }
+
+    function isOnScreen(x,y) {
+        if((x<canvas.width)&&(x+((canvas.height/(numCols))*z)>0)&&(y<canvas.height)&&(y+((canvas.height/(numCols))*z)>0)) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     function reDrawCanvas() {
-        canvas.width = $(window).width();
-        canvas.height = $(window).height();
+        canvas.width = $(window).width()/2;
+        canvas.height = $(window).height()/2;
         drawStuff(x, y, z); 
     }
 
     drawStuff(x, y, z); 
 
 });
-
-
-//onld functions
     
-    
+
+    /*
+        $("canvas").on('mousewheel', function(event) {
+        var oldXOff = event.originalEvent.offsetX-x;
+        var oldYOff = event.originalEvent.offsetY-y;
+        var delta = event.originalEvent.wheelDelta;
+
+        if(delta<0) {
+            z += delta*-delta*.000005;
+             if(z<.5) {
+                 z=.5
+             }
+
+            var newXOff = oldXOff;
+            var newYOff = oldYOff;
+            
+            x += Math.abs(oldXOff-newXOff);
+            y += Math.abs(oldYOff-newYOff); 
+        }
+        else {
+            z += delta*delta*.000005;
+             if(z<.5) {
+                 z=.5
+             }
+            var newXOff = oldXOff;
+            var newYOff = oldYOff;
+            x -= Math.abs(oldXOff-newXOff);
+            y -= Math.abs(oldXOff-newXOff); 
+        }
+            
+        drawStuff(x, y, z);
+    });
+    */
