@@ -346,32 +346,67 @@ $(document).ready(function() {
     //event listeners
     $(window).on('resize', reDrawCanvas);
 
-    $("canvas").on('mousewheel', function(event) {
-        var oldXOff = event.originalEvent.offsetX-x;
-        var oldYOff = event.originalEvent.offsetY-y;
-        var delta = event.originalEvent.wheelDelta;
+    $("canvas").on("click", function(event) {
+        var mouseX = event.clientX;
+        var mouseY = event.clientY;
 
+        var endOfImg = x+((canvas.height)*z);
+        var bottomOfImg = y+((canvas.height)*z);
+
+        var fromMouseToEndOfImg = endOfImg-mouseX;
+        var fromMouseToBottomOfImg = endOfImg-mouseY;
+                     
+    });
+
+    $("canvas").on('mousewheel', function(event) {
+        var mouseX = event.originalEvent.clientX;
+        var mouseY = event.originalEvent.clientY;
+        
+        var endOfImg = x+((canvas.height)*z);
+        var bottomOfImg = y+((canvas.height)*z);
+        console.log(endOfImg);
+        var oldFromMouseToEndOfImg = endOfImg-mouseX;
+        var oldFromMouseToBottomOfImg = endOfImg-mouseY;
+        
+        var delta = event.originalEvent.wheelDelta;
         if(delta<0) {
+             console.log("zoom out");
             z += delta*-delta*.000005;
              if(z<.5) {
                  z=.5
              }
-
-            var newXOff = oldXOff;
-            var newYOff = oldYOff;
-
-            x += Math.abs(oldXOff-newXOff);
-            y += Math.abs(oldYOff-newYOff); 
+            
+            var endOfImg = x+((canvas.height)*z);
+            var bottomOfImg = y+((canvas.height)*z);
+            console.log(endOfImg);
+            var newFromMouseToEndOfImg = endOfImg-mouseX;
+            var newFromMouseToBottomOfImg = endOfImg-mouseY;
+            
+            var xDiff = (oldFromMouseToEndOfImg-newFromMouseToEndOfImg)/2;
+            var yDiff = (oldFromMouseToBottomOfImg-newFromMouseToBottomOfImg)/2;
+            console.log(xDiff);
+            x -= xDiff;
+            y -= yDiff;
         }
         else {
+            console.log("zoom in");
             z += delta*delta*.000005;
              if(z<.5) {
                  z=.5
              }
-            var newXOff = oldXOff;
-            var newYOff = oldYOff;
-            x -= Math.abs(oldXOff-newXOff);
-            y -= Math.abs(oldXOff-newXOff); 
+
+            var endOfImg = x+((canvas.height)*z);
+            var bottomOfImg = y+((canvas.height)*z);
+
+            var newFromMouseToEndOfImg = endOfImg-mouseX;
+            var newFromMouseToBottomOfImg = endOfImg-mouseY;
+
+            var xDiff = (newFromMouseToEndOfImg-oldFromMouseToEndOfImg)/2;
+            var yDiff = (newFromMouseToBottomOfImg-oldFromMouseToBottomOfImg)/2;
+
+            x += xDiff;
+            y += yDiff;
+
         }
             
         drawStuff(x, y, z);
@@ -510,8 +545,8 @@ $(document).ready(function() {
 
     /*
         $("canvas").on('mousewheel', function(event) {
-        var oldXOff = event.originalEvent.offsetX-x;
-        var oldYOff = event.originalEvent.offsetY-y;
+        var oldImgXOff = event.originalEvent.offsetX-x;
+        var oldImgYOff = event.originalEvent.offsetY-y;
         var delta = event.originalEvent.wheelDelta;
 
         if(delta<0) {
@@ -520,21 +555,21 @@ $(document).ready(function() {
                  z=.5
              }
 
-            var newXOff = oldXOff;
-            var newYOff = oldYOff;
+            var newXOff = oldImgXOff;
+            var newYOff = oldImgYOff;
             
-            x += Math.abs(oldXOff-newXOff);
-            y += Math.abs(oldYOff-newYOff); 
+            x += Math.abs(oldImgXOff-newXOff);
+            y += Math.abs(oldImgYOff-newYOff); 
         }
         else {
             z += delta*delta*.000005;
              if(z<.5) {
                  z=.5
              }
-            var newXOff = oldXOff;
-            var newYOff = oldYOff;
-            x -= Math.abs(oldXOff-newXOff);
-            y -= Math.abs(oldXOff-newXOff); 
+            var newXOff = oldImgXOff;
+            var newYOff = oldImgYOff;
+            x -= Math.abs(oldImgXOff-newXOff);
+            y -= Math.abs(oldImgXOff-newXOff); 
         }
             
         drawStuff(x, y, z);
