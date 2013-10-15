@@ -9,6 +9,7 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -20,6 +21,7 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -31,118 +33,7 @@
                         "b": 0
                     },
                     "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatLarge.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatLarge.jpg"
-                    ]
-                }
-            ],
-            [
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -233,6 +124,7 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -244,6 +136,7 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -255,118 +148,7 @@
                         "b": 0
                     },
                     "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatLarge.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatLarge.jpg"
-                    ]
-                }
-            ],
-            [
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -457,6 +239,7 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -468,6 +251,7 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -479,118 +263,7 @@
                         "b": 0
                     },
                     "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatLarge.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatLarge.jpg"
-                    ]
-                }
-            ],
-            [
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -681,6 +354,7 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -692,6 +366,7 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -703,118 +378,7 @@
                         "b": 0
                     },
                     "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatLarge.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatLarge.jpg"
-                    ]
-                }
-            ],
-            [
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -905,6 +469,7 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -916,6 +481,7 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -927,118 +493,7 @@
                         "b": 0
                     },
                     "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatLarge.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatLarge.jpg"
-                    ]
-                }
-            ],
-            [
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -1129,6 +584,7 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -1140,6 +596,7 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -1151,118 +608,7 @@
                         "b": 0
                     },
                     "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatLarge.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatLarge.jpg"
-                    ]
-                }
-            ],
-            [
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -1353,6 +699,7 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -1364,6 +711,7 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -1375,118 +723,7 @@
                         "b": 0
                     },
                     "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatLarge.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatLarge.jpg"
-                    ]
-                }
-            ],
-            [
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -1577,6 +814,7 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -1588,6 +826,7 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -1599,118 +838,7 @@
                         "b": 0
                     },
                     "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatLarge.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatLarge.jpg"
-                    ]
-                }
-            ],
-            [
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -1801,6 +929,7 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -1812,6 +941,7 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -1823,118 +953,7 @@
                         "b": 0
                     },
                     "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatLarge.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatLarge.jpg"
-                    ]
-                }
-            ],
-            [
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -2025,6 +1044,7 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -2036,6 +1056,7 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -2047,118 +1068,7 @@
                         "b": 0
                     },
                     "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatLarge.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatLarge.jpg"
-                    ]
-                }
-            ],
-            [
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -2249,6 +1159,7 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -2260,6 +1171,7 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -2271,118 +1183,7 @@
                         "b": 0
                     },
                     "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatLarge.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatLarge.jpg"
-                    ]
-                }
-            ],
-            [
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -2473,6 +1274,7 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -2484,6 +1286,7 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -2495,118 +1298,7 @@
                         "b": 0
                     },
                     "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goat.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatLarge.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatLarge.jpg"
-                    ]
-                }
-            ],
-            [
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
-                        "img/goatTiny.jpg"
-                    ]
-                },
-                {
-                    "data": "a2",
-                    "color": {
-                        "r": 0,
-                        "g": 0,
-                        "b": 0
-                    },
-                    "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -2697,6 +1389,7 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -2708,6 +1401,7 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },
@@ -2719,6 +1413,1387 @@
                         "b": 0
                     },
                     "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatLarge.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatLarge.jpg"
+                    ]
+                }
+            ],
+            [
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatLarge.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatLarge.jpg"
+                    ]
+                }
+            ],
+            [
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatLarge.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatLarge.jpg"
+                    ]
+                }
+            ],
+            [
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatLarge.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatLarge.jpg"
+                    ]
+                }
+            ],
+            [
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatLarge.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatLarge.jpg"
+                    ]
+                }
+            ],
+            [
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatLarge.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatLarge.jpg"
+                    ]
+                }
+            ],
+            [
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatLarge.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatLarge.jpg"
+                    ]
+                }
+            ],
+            [
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatLarge.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatLarge.jpg"
+                    ]
+                }
+            ],
+            [
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatLarge.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatLarge.jpg"
+                    ]
+                }
+            ],
+            [
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatLarge.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatLarge.jpg"
+                    ]
+                }
+            ],
+            [
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatLarge.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatLarge.jpg"
+                    ]
+                }
+            ],
+            [
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goat.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatLarge.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatLarge.jpg"
+                    ]
+                }
+            ],
+            [
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
+                        "img/goatTiny.jpg"
+                    ]
+                },
+                {
+                    "data": "a2",
+                    "color": {
+                        "r": 0,
+                        "g": 0,
+                        "b": 0
+                    },
+                    "img": [
+                        "img/goatTiny.jpg",
                         "img/goatTiny.jpg"
                     ]
                 },

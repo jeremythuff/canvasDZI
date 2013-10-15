@@ -7,7 +7,7 @@
 ///////////////////////////////////////////////////////////////////
 //3. handle images as dzi if they have the data format           //
 ///////////////////////////////////////////////////////////////////
-//4. Integrate into a backend that prepares the data             //
+//4. Integrate into a backend that prepares and serves the data  //
 ///////////////////////////////////////////////////////////////////
 
 $(document).ready(function() {
@@ -86,9 +86,8 @@ $(document).ready(function() {
             //instead of writing them straight to the screen we should buffer one zoom level up and one zoom level down as well as all offscreen images.
             //we might look into webworkers for soem of this to speed up the process
 
-            var img =  new Image();
-            img.src = cell.img[0];
             
+            var imgs = cell.img;
             
 
             var text = cell.data;
@@ -98,7 +97,14 @@ $(document).ready(function() {
                 
                 ctx.fillStyle = "rgba("+r+", "+g+", "+b+", 1)";
                 ctx.fillRect (x, y, w, h);
-                ctx.drawImage(img, x+((w/2)-((w/2)/2)), y+((w/2)-((w/2)/2)), w/2, h/2);
+                
+                for(i=0;i<imgs.length;i++) {
+                    //calculate how many images can fit in the region and then shift the x and y as they are written to the canvas.
+                    var img =  new Image();
+                    img.src =  imgs[i];
+                    ctx.drawImage(img, x+((w/2)-((w/2)/2)), y+((w/2)-((w/2)/2)), w/2, h/2);
+                }
+                                
                 onScreen.push(text)
             } else {
                 offScreen.push(text)
@@ -254,8 +260,7 @@ $(document).ready(function() {
         x += pixelsNowEqualToPercentXShift;
         y += pixelsNowEqualToPercentYShift;
 
-        drawStuff(x, y, z);
-      
+        drawStuff(x, y, z); 
     }
 
 });
