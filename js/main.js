@@ -1,415 +1,149 @@
+///////////////////////////////////////////////////////////////////
+//TODOS                                                          //
+///////////////////////////////////////////////////////////////////
+//1. "Smart" buffer next and prev images to an off screen canvas.//
+///////////////////////////////////////////////////////////////////
+//2. Iterate over multiple images per region                     //
+///////////////////////////////////////////////////////////////////
+//3. handle images as dzi if they have the data format           //
+///////////////////////////////////////////////////////////////////
+//4. Integrate into a backend that prepares the data             //
+///////////////////////////////////////////////////////////////////
 
 $(document).ready(function() {
-    
-	var grid = {
-    a1: {
-        data: "a1",
-        color: {
-            r: 0,
-            g: 0,
-            b: 0
-        },
-        img: {
-            sml: "img/goatTiny.jpg",
-            med: "img/goat.jpg",
-            lrg: "img/goatLarge.jpg"
-        }
-    },
-    a2: {
-        data: "a2",
-        color: {
-            r: 0,
-            g: 0,
-            b: 0
-        },
-        img: {
-            sml: "img/goatTiny.jpg",
-            med: "img/goat.jpg",
-            lrg: "img/goatLarge.jpg"
-        }
-    },
-    a3: {
-        data: "a3",
-        color: {
-            r: 0,
-            g: 0,
-            b: 0
-        },
-        img: {
-            sml: "img/goatTiny.jpg",
-            med: "img/goat.jpg",
-            lrg: "img/goatLarge.jpg"
-        }
-    },
-    a4: {
-        data: "a4",
-        color: {
-            r: 0,
-            g: 0,
-            b: 0
-        },
-        img: {
-            sml: "img/goatTiny.jpg",
-            med: "img/goat.jpg",
-            lrg: "img/goatLarge.jpg"
-        }
-    },
-    a5: {
-        data: "a5",
-        color: {
-            r: 0,
-            g: 0,
-            b: 0
-        },
-        img: {
-            sml: "img/goatTiny.jpg",
-            med: "img/goat.jpg",
-            lrg: "img/goatLarge.jpg"
-        }
-    },
-    b1: {
-        data: "b1",
-        color: {
-            r: 0,
-            g: 0,
-            b: 0
-        },
-        img: {
-            sml: "img/goatTiny.jpg",
-            med: "img/goat.jpg",
-            lrg: "img/goatLarge.jpg"
-        }
-    },
-    b2: {
-        data: "b2",
-        color:  {
-            r: 0,
-            g: 0,
-            b: 0
-        },
-        img: {
-            sml: "img/goatTiny.jpg",
-            med: "img/goat.jpg",
-            lrg: "img/goatLarge.jpg"
-        }
-    },
-    b3: {
-        data: "b3",
-        color:  {
-            r: 0,
-            g: 0,
-            b: 0
-        },
-        img: {
-            sml: "img/goatTiny.jpg",
-            med: "img/goat.jpg",
-            lrg: "img/goatLarge.jpg"
-        }
-    },
-    b4: {
-        data: "b4",
-        color:  {
-            r: 0,
-            g: 0,
-            b: 0
-        },
-        img: {
-            sml: "img/goatTiny.jpg",
-            med: "img/goat.jpg",
-            lrg: "img/goatLarge.jpg"
-        }
-    },
-    b5: {
-        data: "b5",
-        color: {
-            r: 0,
-            g: 0,
-            b: 0
-        },
-        img: {
-            sml: "img/goatTiny.jpg",
-            med: "img/goat.jpg",
-            lrg: "img/goatLarge.jpg"
-        }
-    },
-    c1: {
-        data: "c1",
-        color: {
-            r: 0,
-            g: 0,
-            b: 0
-        },
-        img: {
-            sml: "img/goatTiny.jpg",
-            med: "img/goat.jpg",
-            lrg: "img/goatLarge.jpg"
-        }
-    },
-    c2: {
-        data: "c2",
-        color: {
-            r: 0,
-            g: 0,
-            b: 0
-        },
-        img: {
-            sml: "img/goatTiny.jpg",
-            med: "img/goat.jpg",
-            lrg: "img/goatLarge.jpg"
-        }
-    },
-    c3: {
-        data: "c3",
-        color:  {
-            r: 0,
-            g: 0,
-            b: 0
-        },
-        img: {
-            sml: "img/goatTiny.jpg",
-            med: "img/goat.jpg",
-            lrg: "img/goatLarge.jpg"
-        }
-    },
-    c4: {
-        data: "c4",
-        color: {
-            r: 0,
-            g: 0,
-            b: 0
-        },
-        img: {
-            sml: "img/goatTiny.jpg",
-            med: "img/goat.jpg",
-            lrg: "img/goatLarge.jpg"
-        }
-    },
-    c5: {
-        data: "c5",
-        color: {
-            r: 0,
-            g: 0,
-            b: 0
-        },
-        img: {
-            sml: "img/goatTiny.jpg",
-            med: "img/goat.jpg",
-            lrg: "img/goatLarge.jpg"
-        }
-    },
-    d1: {
-        data: "d1",
-        color: {
-            r: 0,
-            g: 0,
-            b: 0
-        },
-        img: {
-            sml: "img/goatTiny.jpg",
-            med: "img/goat.jpg",
-            lrg: "img/goatLarge.jpg"
-        }
-    },
-    d2: {
-        data: "d2",
-        color: {
-            r: 0,
-            g: 0,
-            b: 0
-        },
-        img: {
-            sml: "img/goatTiny.jpg",
-            med: "img/goat.jpg",
-            lrg: "img/goatLarge.jpg"
-        }
-    },
-    d3: {
-        data: "d3",
-        color:  {
-            r: 0,
-            g: 0,
-            b: 0
-        },
-        img: {
-            sml: "img/goatTiny.jpg",
-            med: "img/goat.jpg",
-            lrg: "img/goatLarge.jpg"
-        }
-    },
-    d4: {
-        data: "d4",
-        color: {
-            r: 0,
-            g: 0,
-            b: 0
-        },
-        img: {
-            sml: "img/goatTiny.jpg",
-            med: "img/goat.jpg",
-            lrg: "img/goatLarge.jpg"
-        }
-    },
-    d5: {
-        data: "d5",
-        color: {
-            r: 0,
-            g: 0,
-            b: 0
-        },
-        img: {
-            sml: "img/goatTiny.jpg",
-            med: "img/goat.jpg",
-            lrg: "img/goatLarge.jpg"
-        }
-    },
-    e1: {
-        data: "e1",
-        color: {
-            r: 0,
-            g: 0,
-            b: 0
-        },
-        img: {
-            sml: "img/goatTiny.jpg",
-            med: "img/goat.jpg",
-            lrg: "img/goatLarge.jpg"
-        }
-    },
-    e2: {
-        data: "e2",
-        color:  {
-            r: 0,
-            g: 0,
-            b: 0
-        },
-        img: {
-            sml: "img/goatTiny.jpg",
-            med: "img/goat.jpg",
-            lrg: "img/goatLarge.jpg"
-        }
-    },
-    e3: {
-        data: "e3",
-        color:  {
-            r: 0,
-            g: 0,
-            b: 0
-        },
-        img: {
-            sml: "img/goatTiny.jpg",
-            med: "img/goat.jpg",
-            lrg: "img/goatLarge.jpg"
-        }
-    },
-    e4: {
-        data: "e4",
-        color: {
-            r: 0,
-            g: 0,
-            b: 0
-        },
-        img: {
-            sml: "img/goatTiny.jpg",
-            med: "img/goat.jpg",
-            lrg: "img/goatLarge.jpg"
-        }
-    },
-    e5: {
-        data: "e5",
-        color: {
-            r: 0,
-            g: 0,
-            b: 0
-        },
-        img: {
-            sml: "img/goatTiny.jpg",
-            med: "img/goat.jpg",
-            lrg: "img/goatLarge.jpg"
-        }
-    }
-}
-
-	
-
-    canvas = document.getElementById('canvas');
-    ctx = canvas.getContext('2d');
-    
-    canvas.width = $(window).width()/2;
-    canvas.height = $(window).height()/2;
-    
-    numCols = 5;
+	////////////////////
+    //Initial Settings//
+    ////////////////////
+    var regions = {};
     var z = 1;
     var x = (canvas.width/2)-(canvas.height/2);
     var y = 0;
     
-
-    //event listeners
-    $(window).on('resize', reDrawCanvas);
-
-    $("canvas").on("click", function(event) {
-        var mouseX = event.clientX;
-        var mouseY = event.clientY;
-
-        var endOfImg = x+((canvas.height)*z);
-        var bottomOfImg = y+((canvas.height)*z);
-
-        var fromMouseToEndOfImg = endOfImg-mouseX;
-        var fromMouseToBottomOfImg = endOfImg-mouseY;
-                     
+    
+    //////////////////////
+    //ajax & init draw()//
+    //////////////////////
+    
+    //we are currently getting the data with ajax but we should chekc into websockets for
+    //a potential performance boost.
+    var ajax = $.ajax({
+        url: "json/data.json",
+        dataType: "json"
     });
 
-    $("canvas").on('mousewheel', function(event) {
-        var mouseX = event.originalEvent.clientX;
-        var mouseY = event.originalEvent.clientY;
+    ajax.done(function(data) {
+        regions = data.regions;
+        canvas = document.getElementById('canvas');
+        ctx = canvas.getContext('2d');
         
-        var endOfImg = x+((canvas.height)*z);
-        var bottomOfImg = y+((canvas.height)*z);
-        console.log(endOfImg);
-        var oldFromMouseToEndOfImg = endOfImg-mouseX;
-        var oldFromMouseToBottomOfImg = endOfImg-mouseY;
+        canvas.width = $(window).width()/2;
+        canvas.height = $(window).height()/2;
         
-        var delta = event.originalEvent.wheelDelta;
-        if(delta<0) {
-             console.log("zoom out");
-            z += delta*-delta*.000005;
-             if(z<.5) {
-                 z=.5
-             }
-            
-            var endOfImg = x+((canvas.height)*z);
-            var bottomOfImg = y+((canvas.height)*z);
-            console.log(endOfImg);
-            var newFromMouseToEndOfImg = endOfImg-mouseX;
-            var newFromMouseToBottomOfImg = endOfImg-mouseY;
-            
-            var xDiff = (oldFromMouseToEndOfImg-newFromMouseToEndOfImg)/2;
-            var yDiff = (oldFromMouseToBottomOfImg-newFromMouseToBottomOfImg)/2;
-            console.log(xDiff);
-            x -= xDiff;
-            y -= yDiff;
+        numberOfRegions = regions.length;
+        numCols = Math.ceil(Math.sqrt(numberOfRegions));
+        numRows = numCols;
+        if(numberOfRegions % numCols != 0) {
+            numRows--;
         }
-        else {
-            console.log("zoom in");
-            z += delta*delta*.000005;
-             if(z<.5) {
-                 z=.5
-             }
-
-            var endOfImg = x+((canvas.height)*z);
-            var bottomOfImg = y+((canvas.height)*z);
-
-            var newFromMouseToEndOfImg = endOfImg-mouseX;
-            var newFromMouseToBottomOfImg = endOfImg-mouseY;
-
-            var xDiff = (newFromMouseToEndOfImg-oldFromMouseToEndOfImg)/2;
-            var yDiff = (newFromMouseToBottomOfImg-oldFromMouseToBottomOfImg)/2;
-
-            x += xDiff;
-            y += yDiff;
-
-        }
-            
         drawStuff(x, y, z);
+    });
+
+    
+
+    //////////////////////
+    //main draw function//
+    //////////////////////
+    function drawStuff(x, y, z) {
+    	canvas.width = canvas.width;
+        var	w = (canvas.height/(numCols))*z;
+    	var	h = w;
+    	
+    	var counter = 0;
+    	var offScreen = [];
+        var onScreen = [];
+         
+        $(regions).each(function() {
+    		
+    		if((counter % numCols === 0)&&(counter != 0)) {
+    			counter = 0;
+    			x = (x-w*numCols);
+    			y += h;
+    		}
+			counter++;
+			
+            var zoomLevel = (z>10 ? 10 : Math.floor(z))||(z<1 ? 1 : Math.floor(z));
+            var cell = this[zoomLevel-1];
+
+            var r = cell.color.r;
+            var g = cell.color.g;
+            var b = cell.color.b;
+            
+            //here we need to iterate over several images instead of just one
+            //we also need to check each image to see if they are a stand alone image or a dzi,
+            //and handle them accordingly
+
+            //it will also be important to be pulling these images from buffer of screen canvas 
+            //instead of writing them straight to the screen we should buffer one zoom level up and one zoom level down as well as all offscreen images.
+            //we might look into webworkers for soem of this to speed up the process
+
+            var img =  new Image();
+            img.src = cell.img[0];
+            
+            
+
+            var text = cell.data;
+
+            
+            if(isOnScreen(x,y)) {
+                
+                ctx.fillStyle = "rgba("+r+", "+g+", "+b+", 1)";
+                ctx.fillRect (x, y, w, h);
+                ctx.drawImage(img, x+((w/2)-((w/2)/2)), y+((w/2)-((w/2)/2)), w/2, h/2);
+                onScreen.push(text)
+            } else {
+                offScreen.push(text)
+            } 		
+
+            x += w;	
+			r += 3;
+			g += 4;
+			b += 5;
+    	
+    	});
+        // console.log("Off screen "+offScreen);
+        // console.log("On screen "+onScreen); 	
+    }
+
+    ///////////////////
+    //event listeners//
+    ///////////////////
+
+    $(window).on('resize', reDrawCanvas);
+
+    $("canvas").on('mousewheel', function(event) {
+        zoom(event.originalEvent.clientX, event.originalEvent.clientY, event.originalEvent.wheelDelta);
+    });
+
+    $("canvas").on("dblclick", function(event) {
+        var counter = 0;
+        var clickZoom = setInterval(function() {
+            
+            if(counter < 4) {
+                delta = counter * 1;
+            } else if (counter > 30) {
+                delta = counter * 2;
+            }  else {
+                delta = counter * 4;
+            }
+
+            zoom(event.clientX, event.clientY, delta);
+            
+            counter++;
+            if(counter === 40) {
+                clearInterval(clickZoom);
+            }
+
+        }, 10); 
     });
 
     $("canvas").on('mousedown', function(event) {
@@ -439,14 +173,14 @@ $(document).ready(function() {
             if(newY > lastY) {
                 y += Math.abs(lastY - newY);
 
-                if((y+(((canvas.height/(numCols))*z)*(numCols))>=canvas.height)&&(y>=0)) {
+                if((y+(((canvas.height/(numCols))*z)*(numRows))>=canvas.height)&&(y>=0)) {
                     y -= Math.abs(lastY - newY);
                 }
 
             } else {
                 y -= Math.abs(lastY - newY);
 
-                if((y<=0)&&((y+(((canvas.height/(numCols))*z)*(numCols)))<=(canvas.height))) {
+                if((y<=0)&&((y+(((canvas.height/(numCols))*z)*(numRows)))<=(canvas.height))) {
                     y += Math.abs(lastY - newY);
                 } 
             }
@@ -461,68 +195,16 @@ $(document).ready(function() {
         $(window).off('mousemove');
     });
 
+    /////////////
+    //Functions//
+    /////////////
 
-    //main draw function
-    function drawStuff(x, y, z) {
-    	canvas.width = canvas.width;
-        var	w = (canvas.height/(numCols))*z;
-    	var	h = w;
-    	
-    	var cells = Object.keys(grid);
-    	var counter = 0;
-    	var offScreen = [];
-         
-        $(cells).each(function() {
-    		
-    		if((counter % numCols === 0)&&(counter != 0)) {
-    			counter = 0;
-    			x = (x-w*numCols);
-    			y += h;
-    		}
-
-			counter++;
-			var cell = grid[this];
-            var r = cell.color.r;
-            var g = cell.color.g;
-            var b = cell.color.b;
-            var img =  new Image();
-            
-            if(z < .5) {
-                img.src = cell.img.sml;
-            }
-            
-            if((z>=.5)&&(z<10)) {
-                img.src = cell.img.med;
-            }
-
-            if(z >= 10) {
-                img.src = cell.img.lrg;
-            }
-
-            var text = cell.data;
-
-            
-            if(isOnScreen(x,y)) {
-                
-                ctx.fillStyle = "rgba("+r+", "+g+", "+b+", 1)";
-                ctx.fillRect (x, y, w, h);
-                ctx.drawImage(img, x+((w/2)-((w/2)/2)), y+((w/2)-((w/2)/2)), w/2, h/2);
-              
-            } else {
-                offScreen.push(text)
-            } 		
-                
-            
-
-            x += w;	
-			r += 3;
-			g += 4;
-			b += 5;
-    	
-    	});
-        //console.log(offScreen); 	
-    
+    function reDrawCanvas() {
+        canvas.width = $(window).width()/2;
+        canvas.height = $(window).height()/2;
+        drawStuff(x, y, z); 
     }
+
 
     function isOnScreen(x,y) {
         if((x<canvas.width)&&(x+((canvas.height/(numCols))*z)>0)&&(y<canvas.height)&&(y+((canvas.height/(numCols))*z)>0)) {
@@ -532,46 +214,48 @@ $(document).ready(function() {
         }
     }
 
-    function reDrawCanvas() {
-        canvas.width = $(window).width()/2;
-        canvas.height = $(window).height()/2;
-        drawStuff(x, y, z); 
+    function zoom(clientX, clientY, delta) {
+        //get the cursors absolute screen position over the canvas
+        //NOTE this will not work as it is written unless the canvas is in the top left corner of the screen
+        var mouseXOnScreen = clientX;
+        var mouseYOnScreen = clientY;
+
+        //this calculates the position of the mouse over the drawn object on the screen
+        var mouseXOnImg = mouseXOnScreen-x;
+        var mouseYOnImg = mouseYOnScreen-y;
+
+        //this calculated the cursors offset over the image as a % of the total images size
+        var oldMouseXPosPercentOfImg = mouseXOnImg/(canvas.height*z);
+        var oldMouseYPosPercentOfImg = mouseYOnImg/(canvas.height*z);
+
+        /*
+            z is a result of delta squared so that it willl zoom faster the harder you scroll the wheel,
+            one of the deltas is held at an absolut value so that the product will be positive or negative
+            depending on the direction of the wheel's spin, finally z is reduced by a factor of z/n so that
+            zooming will occure more and more quickly as the zoom increases.
+        */
+        z += Math.abs(delta)*delta*(z/150000);
+        //this places a maximum zoom out level
+        z<.5 ? z=.5: z=z;
+
+        //this recalculates the cursors position as a % of the total images size at the new level of zoom
+        var newMouseXPosPercentOfImg = mouseXOnImg/(canvas.height*z);
+        var newMouseYPosPercentOfImg = mouseYOnImg/(canvas.height*z);
+
+        //this calculates the difference in the % of the total images size both before and after the zoom
+        var percentXShift = newMouseXPosPercentOfImg - oldMouseXPosPercentOfImg;
+        var percentYShift = newMouseYPosPercentOfImg - oldMouseYPosPercentOfImg;
+
+        // this converts the % into the the relative pixel distance at this level of zoom
+        var pixelsNowEqualToPercentXShift = (canvas.height*z)*percentXShift;
+        var pixelsNowEqualToPercentYShift = (canvas.height*z)*percentYShift;
+
+        //this shifts x and y by the number of pixels represented by the shift in the cursors position relative tot eh image.
+        x += pixelsNowEqualToPercentXShift;
+        y += pixelsNowEqualToPercentYShift;
+
+        drawStuff(x, y, z);
+      
     }
 
-    drawStuff(x, y, z); 
-
 });
-    
-
-    /*
-        $("canvas").on('mousewheel', function(event) {
-        var oldImgXOff = event.originalEvent.offsetX-x;
-        var oldImgYOff = event.originalEvent.offsetY-y;
-        var delta = event.originalEvent.wheelDelta;
-
-        if(delta<0) {
-            z += delta*-delta*.000005;
-             if(z<.5) {
-                 z=.5
-             }
-
-            var newXOff = oldImgXOff;
-            var newYOff = oldImgYOff;
-            
-            x += Math.abs(oldImgXOff-newXOff);
-            y += Math.abs(oldImgYOff-newYOff); 
-        }
-        else {
-            z += delta*delta*.000005;
-             if(z<.5) {
-                 z=.5
-             }
-            var newXOff = oldImgXOff;
-            var newYOff = oldImgYOff;
-            x -= Math.abs(oldImgXOff-newXOff);
-            y -= Math.abs(oldImgXOff-newXOff); 
-        }
-            
-        drawStuff(x, y, z);
-    });
-    */
